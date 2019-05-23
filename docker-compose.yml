@@ -1,0 +1,11 @@
+version: "3"
+services:
+  service:
+    image: philhawthorne/docker-influxdb-grafana:latest
+    ports:
+      - "3003:3003"
+      - "3004:8888"
+      - "8086:8086"
+    volumes:
+      - "./influxdb-volume:/var/lib/influxdb"
+      - "./grafana-volume:/var/lib/grafana"

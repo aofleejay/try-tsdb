@@ -14,5 +14,5 @@ docker-compose up
     ```
 -  **Open grafana dashboard**
     ```
-    http://localhost:3003
+    <a href="http://localhost:3003" target="_blank">http://localhost:3003</a>
     ```

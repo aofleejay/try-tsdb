@@ -13,6 +13,5 @@ docker-compose up
     influx
     ```
 -  **Open grafana dashboard**
-    ```
+
     <a href="http://localhost:3003" target="_blank">http://localhost:3003</a>
-    ```
